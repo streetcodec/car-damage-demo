@@ -13,7 +13,8 @@ from pathlib import Path
 MODEL_DIR = Path("Models")
 
 MODELS = {
-    "YOLO11n-Seg": MODEL_DIR / "best.pt",
+    "YOLO11n-Seg": MODEL_DIR / "best-YOLO11n-seg.pt",
+    "YOLO11s-Seg": MODEL_DIR / "best-YOLO11s-seg.pt",
 }
 # DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 
