@@ -1,6 +1,8 @@
 streamlit
-ultralytics
+ultralytics-opencv-headless
 torch
 torchvision
 pillow
 numpy
+
+--extra-index-url https://download.pytorch.org/whl/cpu
